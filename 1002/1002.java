@@ -4,13 +4,15 @@ import java.util.Scanner;
 public class Main {
  
     public static void main(String[] args) throws IOException {
-        int a, b, sum;
-        Scanner teclado = new Scanner(System.in);
-        a = teclado.nextInt();
-        b = teclado.nextInt();
-        sum = a + b;
-        System.out.println("X = " + sum);
-        teclado.close();
+ 
+       Scanner teclado = new Scanner(System.in);
+       double raio, n = 3.14159, area;
+       
+       raio = teclado.nextDouble();
+       area = n * Math.pow(raio, 2);
+       
+       System.out.printf("A=%.4f\n", area);
+       
     }
-
+ 
 }
