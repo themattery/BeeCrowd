@@ -19,6 +19,6 @@ public class Main {
         
         System.out.println("NUMBER = " + num);
         System.out.println(String.format("SALARY = U$ %.2f" , salario));
-    }
+    }ch
  
 }
